@@ -39,7 +39,13 @@ $H_0$ There is no difference among the various races with frequency of eating ou
 $H_A$ There is a statistical difference between at least two races with the frequency of eating out  
 
 
+# Methods
 
+```{r}
+glimpse(mydata)
+```
+
+Looking at the data, we are comparing two categorical data types therefore we will use the CandP helper file for Cat~Cat. This will include a bar chart, the tidyverse barchart was used for its ability to show percentages vs ggplot2. Then we will look at numerical results using favstats and finally preform a chi squared test and a fisher exxact test via the fisherXY tool provided.
 
 
 
